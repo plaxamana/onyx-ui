@@ -1,0 +1,58 @@
+:root {
+  /* ─── Font ─────────────────────────────────────────────── */
+  --onyx-font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* ─── Font sizes ────────────────────────────────────────── */
+  --onyx-font-size-page: 24px;
+  --onyx-font-size-section: 20px;
+  --onyx-font-size-item: 18px;
+  --onyx-font-size-segment: 16px;
+  --onyx-font-size-primary: 16px;
+  --onyx-font-size-secondary: 14px;
+  --onyx-font-size-footnote: 11px;
+
+  /* ─── Spacing ───────────────────────────────────────────── */
+  --onyx-spacing-0: 0px;
+  --onyx-spacing-1: 4px;
+  --onyx-spacing-2: 8px;
+  --onyx-spacing-3: 16px;
+  --onyx-spacing-4: 24px;
+  --onyx-spacing-5: 32px;
+
+  /* ─── Border radius ─────────────────────────────────────── */
+  --onyx-radius-0: 0px;
+  --onyx-radius-1: 4px;
+  --onyx-radius-2: 8px;
+  --onyx-radius-round: 999px;
+
+  /* ─── Base colors ───────────────────────────────────────── */
+  --onyx-color-base-primary: #1f1f1f;
+  --onyx-color-base-secondary: #606060;
+  --onyx-color-base-surface: #ffffff;
+  --onyx-color-base-background: #f3f4f6;
+  --onyx-color-base-highlight: rgba(31, 31, 31, 0.06);
+  --onyx-color-base-divider: rgba(31, 31, 31, 0.16);
+  --onyx-color-base-hyperlink: #2563eb;
+
+  /* ─── Theme colors ──────────────────────────────────────── */
+  --onyx-color-theme-primary: #3b82f6;
+  --onyx-color-theme-primary-hover: #2563eb;
+  --onyx-color-theme-foreground: #ffffff;
+  --onyx-color-theme-background: #eff6ff;
+
+  /* ─── Semantic: Informative ─────────────────────────────── */
+  --onyx-color-informative: #3b82f6;
+  --onyx-color-informative-bg: #eff6ff;
+
+  /* ─── Semantic: Positive ────────────────────────────────── */
+  --onyx-color-positive: #16a34a;
+  --onyx-color-positive-bg: #f0fdf4;
+
+  /* ─── Semantic: Warning ─────────────────────────────────── */
+  --onyx-color-warning: #d97706;
+  --onyx-color-warning-bg: #fffbeb;
+
+  /* ─── Semantic: Alert ───────────────────────────────────── */
+  --onyx-color-alert: #dc2626;
+  --onyx-color-alert-bg: #fef2f2;
+}

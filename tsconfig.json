@@ -9,24 +9,16 @@
       "src/*": ["./src/*"]
     },
     "typeRoots": ["node_modules/@types"],
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "declarationDir": "./build",
+    "types": ["jest"],
     "isolatedModules": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
     "allowJs": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "noEmit": true
   },
   "include": ["src"],
-  "exclude": [
-    "node_modules",
-    "build",
-    "**/*.stories.tsx",
-    "**/*.stories.ts",
-    "**/*.test.tsx",
-    "**/*.test.ts"
-  ]
+  "exclude": ["node_modules", "build"]
 }

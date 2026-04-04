@@ -1,7 +1,9 @@
-export { Badge } from './components/Badge';
+export { Badge, BADGE_SENTIMENTS, BADGE_TYPES, BADGE_VARIANTS } from './components/Badge';
 export type {
   BadgeProps,
   BadgeSentiment,
+  BadgeType,
+  BadgeVariant,
   DotBadgeProps,
   TextBadgeProps,
   TagBadgeProps,

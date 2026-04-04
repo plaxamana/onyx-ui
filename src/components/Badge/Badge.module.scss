@@ -58,6 +58,10 @@
   white-space: nowrap;
 }
 
+.square {
+  border-radius: var(--onyx-radius-1);
+}
+
 .icon {
   display: flex;
   align-items: center;

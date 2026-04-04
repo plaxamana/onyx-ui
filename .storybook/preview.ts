@@ -2,6 +2,7 @@ import type { Preview } from '@storybook/react-vite';
 import '../src/tokens/tokens.css';
 
 const preview: Preview = {
+  tags: ['autodocs'],
   parameters: {
     actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {

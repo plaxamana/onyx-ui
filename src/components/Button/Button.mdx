@@ -1,0 +1,17 @@
+import { Canvas, Meta, Stories, Primary, Controls } from '@storybook/addon-docs/blocks';
+
+import * as ButtonStories from './Button.stories';
+
+# Button
+
+<Meta of={ButtonStories} />
+
+Buttons communicate actions that users can take. Although called “Buttons”, the actual HTML element that is rendered will depend on the action. onClick events will render as Buttons, but if provided an href, the component will render an anchor tag instead.
+
+Note: Text & Inline are only different by padding, and have no semantic distinction
+
+<Primary />
+
+<Controls />
+
+<Stories />

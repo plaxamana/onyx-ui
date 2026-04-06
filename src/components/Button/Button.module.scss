@@ -1,0 +1,32 @@
+@use '../../styles/mixins' as *;
+
+.base {
+  font-family: 'Inter';
+  font-size: var(--onyx-font-size-primary);
+  padding: toRem(12) var(--onyx-spacing-3);
+  border-radius: var(--onyx-radius-1);
+  background: 0;
+  border: 0;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.primary {
+  background: var(--onyx-color-theme-primary);
+  color: var(--onyx-color-theme-foreground);
+}
+
+.secondary {
+  color: var(--onyx-color-theme-primary);
+  border: 1px solid var(--onyx-color-theme-primary);
+}
+
+.ghost {
+  color: var(--onyx-color-theme-primary);
+  border: 0;
+}
+
+.small {
+  padding: var(--onyx-spacing-2) toRem(12);
+  font-size: var(--onyx-font-size-secondary);
+}

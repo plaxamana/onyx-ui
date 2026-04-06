@@ -1,4 +1,5 @@
-export { Badge, BADGE_SENTIMENTS, BADGE_TYPES, BADGE_VARIANTS } from './Badge';
+export { BADGE_SENTIMENTS, BADGE_TYPES, BADGE_VARIANTS } from './constants';
+export { default } from './Badge';
 export type {
   BadgeProps,
   BadgeSentiment,
@@ -7,4 +8,4 @@ export type {
   DotBadgeProps,
   TextBadgeProps,
   TagBadgeProps,
-} from './Badge';
+} from './constants';

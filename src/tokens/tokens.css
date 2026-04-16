@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
   /* ─── Font ─────────────────────────────────────────────── */
   --onyx-font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -35,7 +37,7 @@
   --onyx-color-base-hyperlink: #2563eb;
 
   /* ─── Theme colors ──────────────────────────────────────── */
-  --onyx-color-theme-primary: #3b82f6;
+  --onyx-color-theme-primary: #1256f2;
   --onyx-color-theme-primary-hover: #2563eb;
   --onyx-color-theme-foreground: #ffffff;
   --onyx-color-theme-background: #eff6ff;

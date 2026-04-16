@@ -1,4 +1,4 @@
-import { ComponentProps } from 'react';
+import { ComponentPropsWithoutRef } from 'react';
 
 export const BUTTON_VARIANTS = {
   PRIMARY: 'primary',
@@ -16,9 +16,13 @@ export const BUTTON_SIZES = {
 
 export type ButtonSizes = (typeof BUTTON_SIZES)[keyof typeof BUTTON_SIZES];
 
-export interface ButtonProps extends ComponentProps<'button'> {
-  /** Controls the style of the button.  Defaults to primary */
+type BaseProps = {
   variant?: ButtonVariants;
-  /** Controls the size of the button.  Defaults to medium */
   size?: ButtonSizes;
-}
+  disabled?: boolean;
+};
+
+type AsButton = ComponentPropsWithoutRef<'button'> & BaseProps & { href?: never };
+type AsAnchor = ComponentPropsWithoutRef<'a'> & BaseProps & { href: string };
+
+export type ButtonProps = AsButton | AsAnchor;

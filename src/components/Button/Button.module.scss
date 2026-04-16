@@ -14,6 +14,11 @@
 .primary {
   background: var(--onyx-color-theme-primary);
   color: var(--onyx-color-theme-foreground);
+  transition: background 300ms;
+
+  &:not(.disabled):hover {
+    background: var(--onyx-color-theme-primary-hover);
+  }
 }
 
 .secondary {
@@ -24,6 +29,15 @@
 .ghost {
   color: var(--onyx-color-theme-primary);
   border: 0;
+
+  &:not(.disabled):hover {
+    text-decoration: underline;
+  }
+}
+
+.disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
 }
 
 .small {
